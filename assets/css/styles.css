@@ -1,0 +1,20 @@
+:root {
+    /* Cores */
+    --branco: #FFFFFF;
+    --cinza-escuro: #3A404E;
+    --cinza-claro: #667085;
+    --preto: #101828;
+    --vinho: #8E2424;
+    /* Fontes */
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--branco);
+    color: var(--cinza-claro);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    height: 100vh;
+    width: 100%;
+}

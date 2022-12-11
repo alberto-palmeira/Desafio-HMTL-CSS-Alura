@@ -1,0 +1,27 @@
+.banner {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 6rem 22.5vw;
+    text-align: center;
+}
+
+.banner__subtitulo {
+    color: var(--vinho);
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.banner__titulo {
+    color: var(--preto);
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3.75rem;
+}
+
+.banner__texto {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
