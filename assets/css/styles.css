@@ -1,20 +1,30 @@
 :root {
     /* Cores */
+    --background-off-white: #F9FAFB;
+    --background-vinho-claro: rgba(142, 36, 36, 0.05);
+    --borda-cinza-claro: #D0D5DD;
     --branco: #FFFFFF;
     --cinza-escuro: #3A404E;
     --cinza-claro: #667085;
     --preto: #101828;
     --vinho: #8E2424;
+    --off-white: #EAECF0;
     /* Fontes */
     --fonte-principal: 'Inter', sans-serif;
 }
 
 body {
     background-color: var(--branco);
+    box-sizing: border-box;
     color: var(--cinza-claro);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
-    height: 100vh;
+    height: 100%;
+    /* padding: 0 5rem; */
     width: 100%;
+}
+
+.principal {
+    padding: 0 5rem;
 }

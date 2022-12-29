@@ -1,0 +1,108 @@
+.vagas {
+    padding: 6rem 0;
+}
+
+.divulgacao__cabecalho {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.divulgacao__cabecalho__info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    text-align: center;
+}
+
+.divulgacao__subtitulo{ 
+    background-color: var(--background-vinho-claro);
+    border-radius: 16px;
+    color: var(--vinho);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    padding: 0.25rem 0.75rem;
+}
+
+.divulgacao__titulo {
+    color: var(--preto);
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 2.75rem;
+}
+
+.divulgacao__texto {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+.divulgacao__imagem {
+    width: 95%;
+}
+
+/* ----------Vagas Disponíveis---------- */
+
+.vagas__disponiveis {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin: 0 16rem;
+}
+
+.vagas__area {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.vagas__descricao{
+    border: 1px solid var(--off-white);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem;
+}
+
+.vagas__descricao:hover a {
+    text-decoration: underline;
+}
+
+.vagas__area__titulo {
+    color: var(--preto);
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.875rem;
+}
+
+.vagas__titulo {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+}
+
+.vagas__link {
+    color: var(--preto);
+    text-decoration: none;
+}
+
+.vagas__info {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.vagas__jornada {
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.vagas__salario {
+    font-weight: 500;
+    line-height: 1.5rem;
+}

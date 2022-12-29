@@ -1,0 +1,56 @@
+.depoimentos {
+    align-items: center;
+    background-color: var(--background-vinho-claro);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 6rem;
+    padding: 4rem;
+}
+
+.depoimentos__conteudo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+
+.conteudo__titulo {
+    color: var(--vinho);
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+}
+
+.conteudo__texto {
+    color: var(--preto);
+    font-size: 2.25rem;
+    font-weight: 500;
+    line-height: 2.75rem;
+}
+
+.depoimentos__perfil {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.perfil__info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.perfil__nome {
+    color: var(--preto);
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.perfil__profissao {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}

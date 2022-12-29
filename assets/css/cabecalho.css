@@ -1,10 +1,14 @@
+.cabecalho {
+    padding: 0 5rem;
+}
+
 .navegacao {
     align-items: center;
     box-sizing: border-box;
     display: flex;
     gap: 7.5rem;
     justify-content: space-between;
-    padding: 1rem 5rem;
+    padding: 1rem 0;
     width: 100%;
 }
 
@@ -32,6 +36,10 @@
     font-weight: 500;
     line-height: 1.5rem;
     text-decoration: none;
+}
+
+.container__link:hover {
+    text-decoration: underline;
 }
 
 .container__botao {
